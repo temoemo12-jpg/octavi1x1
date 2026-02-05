@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1x1.online | إلعب. نافس. اربح كاش.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Changa:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #0B1E3A;
+            --primary-blue: #1E3A8A;
+            --accent-gold: #FACC15;
+            --glow-blue: #3B82F6;
+            --success-green: #22C55E;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #F1F5F9;
+            color: #1e293b;
+        }
+        .font-sporty {
+            font-family: 'Changa', sans-serif;
+            font-style: italic;
+            transform: skewX(-5deg);
+            display: inline-block;
+        }
+        
+        .logo-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+        .logo-en-box {
+            background-color: var(--accent-gold);
+            padding: 4px 12px;
+            border-radius: 4px;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(250, 204, 21, 0.3);
+        }
+        .logo-en {
+            font-family: 'Changa', sans-serif;
+            font-weight: 900;
+            font-style: italic;
+            font-size: 1.3rem;
+            color: #FFFFFF;
+            background: linear-gradient(90deg, #fff 0%, #fff 40%, var(--glow-blue) 50%, #fff 60%, #fff 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine-blue 2.5s linear infinite;
+        }
+        @keyframes shine-blue { to { background-position: 200% center; } }
+        
+        .btn-1xbet {
+            background-color: var(--accent-gold);
+            color: var(--primary-dark);
+            font-family: 'Changa', sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            transform: skewX(-10deg);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 0 #b48a04;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-1xbet > span { transform: skewX(10deg); display: inline-block; }
+        .btn-1xbet:hover { background-color: #eab308; transform: skewX(-10deg) translateY(1px); box-shadow: 0 2px 0 #b48a04; }
+        .btn-1xbet:active { transform: skewX(-10deg) translateY(4px); box-shadow: 0 0 0 #b48a04; }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: var(--primary-dark); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.39.0"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
